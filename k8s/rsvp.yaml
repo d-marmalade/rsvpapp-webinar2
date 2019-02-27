@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rsvp-app
-        image: d-marmalade/rsvpapp-webinar2:dev
+        image: nkhare/rsvpapp:dev
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
